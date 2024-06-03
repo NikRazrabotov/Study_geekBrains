@@ -2,15 +2,15 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="JS" FOLDED="false" ID="ID_1090958577" CREATED="1606664858024" MODIFIED="1716990932180" VGAP_QUANTITY="3 pt" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<hook NAME="MapStyle" background="#3c3836" zoom="0.826">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/dark_gruvbox_template.mm" followedTemplateLocation="template:/dark_gruvbox_template.mm" followedMapLastTime="1699818412000" fit_to_viewport="false"/>
+<hook NAME="MapStyle" background="#3c3836" zoom="0.909">
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/dark_gruvbox_template.mm" followedTemplateLocation="template:/dark_gruvbox_template.mm" followedMapLastTime="1714575758000" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_602083445" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#3c3836" BACKGROUND_COLOR="#fbf1c7" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#a89984" WIDTH="2" TRANSPARENCY="255" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_602083445" STARTINCLINATION="102.75 pt;-17.25 pt;" ENDINCLINATION="102.75 pt;3 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#a89984" WIDTH="2" TRANSPARENCY="255" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_602083445" STARTINCLINATION="102.75 pt;-19.5 pt;" ENDINCLINATION="102.75 pt;3 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="11" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#93a1a1" WIDTH="3" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -73,7 +73,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="переменные объявления&#xa;добавление и т д" FOLDED="true" POSITION="bottom_or_right" ID="ID_602536385" CREATED="1717053944767" MODIFIED="1717063026018" COLOR="#83bcd5" BACKGROUND_COLOR="#5e065e">
+<node TEXT="переменные объявления&#xa;добавление и т д" POSITION="bottom_or_right" ID="ID_602536385" CREATED="1717053944767" MODIFIED="1717063026018" COLOR="#83bcd5" BACKGROUND_COLOR="#5e065e">
 <font SIZE="12"/>
 <node TEXT="let p = 1;&#xa;p++;" ID="ID_75442767" CREATED="1717053966612" MODIFIED="1717053988777">
 <node TEXT="Добавляет 1" ID="ID_1376253913" CREATED="1717053998466" MODIFIED="1717054005042"/>
@@ -83,7 +83,7 @@
 </node>
 </node>
 <node TEXT="Условия" FOLDED="true" POSITION="bottom_or_right" ID="ID_1165473792" CREATED="1716979630581" MODIFIED="1716979637263">
-<node TEXT="if else" FOLDED="true" ID="ID_960852950" CREATED="1716979638092" MODIFIED="1716980033793" VGAP_QUANTITY="3 pt">
+<node TEXT="if else" ID="ID_960852950" CREATED="1716979638092" MODIFIED="1716980033793" VGAP_QUANTITY="3 pt">
 <node TEXT="const goodsCount = 0;&#xa;if (goodsCount &gt; 0) {&#xa;  console.log(`Количество товаров: ${goodsCount}`);&#xa;} else {&#xa;  console.log(`Корзина пуста.`);&#xa;}" ID="ID_1999804357" CREATED="1716979648838" MODIFIED="1716980490755" HGAP_QUANTITY="24.5 pt" MAX_WIDTH="20 cm" MIN_WIDTH="11 cm"/>
 <node TEXT="операнды" ID="ID_246474336" CREATED="1716980462699" MODIFIED="1716980618203">
 <node TEXT="унарные" ID="ID_118593488" CREATED="1716980469890" MODIFIED="1716980472868">
@@ -96,7 +96,7 @@
 <node TEXT="бинарным операндом будет =&#xa;соединяет два оператора" ID="ID_461871598" CREATED="1716980572225" MODIFIED="1716980611515"/>
 </node>
 </node>
-<node TEXT="тернарные" FOLDED="true" ID="ID_604392943" CREATED="1716980475946" MODIFIED="1716980478709">
+<node TEXT="тернарные" ID="ID_604392943" CREATED="1716980475946" MODIFIED="1716980478709">
 <node TEXT="goodsCount &gt; 0&#xa;  ? console.log(`Количество товаров: ${goodsCount}`)&#xa;  : console.log(`Корзина пуста.`);&#xa;&#xa;console.log(goodsCount &gt; 0 ? `Количество товаров: ${goodsCount}` : `Корзина пуста.`" ID="ID_1394391282" CREATED="1716980480139" MODIFIED="1716980494072"/>
 <node TEXT="? :" ID="ID_728105591" CREATED="1716980497410" MODIFIED="1716980510964"/>
 </node>
@@ -127,8 +127,10 @@
 </node>
 <node TEXT="пример" ID="ID_225427799" CREATED="1717062676618" MODIFIED="1717062679860">
 <node TEXT="const good = prompt(&quot;Введите товар&quot;);&#xa;&#xa;if (good === &quot;Бананы&quot;) {&#xa;    alert(&quot;Цена на бананы 50 руб./кг.&quot;);&#xa;} else if (good === &quot;Манго&quot;) {&#xa;    alert(&quot;Цена на манго 80 руб./кг.&quot;);&#xa;} else if (good === &quot;Яблоки&quot; || good === &quot;Груши&quot;) {&#xa;    alert(&quot;На яблоки и груши одна цена - 40 руб./кг.&quot;);&#xa;} else {&#xa;    alert(&quot;Неизвестный фрукт&quot;);&#xa;}" ID="ID_194103339" CREATED="1717062680161" MODIFIED="1717062683135"/>
+<node TEXT="switch (Поиск)" FOLDED="true" ID="ID_661105905" CREATED="1717410476948" MODIFIED="1717410498816">
+<node TEXT="let good = &quot;Яблоки&quot;;&#xa;sayPrice(good);&#xa;sayPrice(&quot;Манго&quot;);&#xa;&#xa;function sayPrice(good) {&#xa;  switch (good) {&#xa;    case &quot;Бананы&quot;:&#xa;      console.log(&quot;Цена на бананы 50 руб./кг.&quot;);&#xa;      break;&#xa;    case &quot;Манго&quot;:&#xa;      console.log(&quot;Цена на Манго 80 руб./кг.&quot;);&#xa;      break;&#xa;    case &quot;Яблоки&quot;:&#xa;    case &quot;Груши&quot;:&#xa;      console.log(&quot;На Яблоки и Груши одна цена - 40 руб./кг.&quot;);&#xa;      break;&#xa;    default:&#xa;      console.log(&quot;Неизвесный фрукт.&quot;)&#xa;  }&#xa;}" POSITION="bottom_or_right" ID="ID_372311709" CREATED="1717409945072" MODIFIED="1717410467173"/>
 </node>
-<node TEXT="" ID="ID_1125551595" CREATED="1717146405606" MODIFIED="1717146405606"/>
+</node>
 </node>
 <node TEXT="функция" POSITION="top_or_left" ID="ID_1667067628" CREATED="1716990923504" MODIFIED="1717147563800"><richcontent TYPE="NOTE">
 <html>
@@ -146,13 +148,12 @@
       Что бы не копировать условие(действие) кода. Запихивается все это в функцию. (как в переменной может лежать куча данных, так и в функции)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="function sayPrice() {&#xa;  console.log(&quot;Цена на бананы 50 руб./кг&quot;);&#xa;}" ID="ID_214859706" CREATED="1717153872261" MODIFIED="1717153955190">
 <font SIZE="10"/>
 <node TEXT="С начало создаем функцию, потом вызываем функцию.&#xa;&#xa;sayPrice();" ID="ID_1840223407" CREATED="1717153967179" MODIFIED="1717154002144"/>
 </node>
-<node TEXT="функции уже заложенны" POSITION="bottom_or_right" ID="ID_1858412795" CREATED="1717154009606" MODIFIED="1717154049827">
+<node TEXT="функции уже заложенны" FOLDED="true" POSITION="bottom_or_right" ID="ID_1858412795" CREATED="1717154009606" MODIFIED="1717154049827">
 <node TEXT="alert()" POSITION="bottom_or_right" ID="ID_1293715191" CREATED="1717154004838" MODIFIED="1717154009250"/>
 <node TEXT="prompt()" ID="ID_1012972083" CREATED="1717154050569" MODIFIED="1717154055675"/>
 </node>
@@ -171,11 +172,27 @@
 <node TEXT="В скобках это параметры." ID="ID_160648864" CREATED="1717155501318" MODIFIED="1717155513480"/>
 <node TEXT="Можно принимать функцией множество параметров&#xa;good, red, car = это названия переменных расположеных внутри функции" ID="ID_1591095429" CREATED="1717155526519" MODIFIED="1717155599432"/>
 </node>
-<node TEXT="по умолчанию" ID="ID_1073299876" CREATED="1717155900273" MODIFIED="1717155904844">
-<node TEXT="умолчанию.png" ID="ID_1570593337" CREATED="1717155915512" MODIFIED="1717155915512">
+<node TEXT="по умолчанию" ID="ID_1073299876" CREATED="1717155900273" MODIFIED="1717409825419" VGAP_QUANTITY="3 pt">
+<node TEXT="умолчанию.png" ID="ID_1570593337" CREATED="1717155915512" MODIFIED="1717409829504" HGAP_QUANTITY="56 pt" VSHIFT_QUANTITY="-5.25 pt">
 <hook URI="JS_files/умолчанию.png" SIZE="1.0" NAME="ExternalObject"/>
 <node TEXT="Имеется ввиду что в последнем sayPrice() ни чего не передали. А если ничего не передали то выведет Undefiend, что бы этого не было, нужно прописать&#xa;function sayPrice(price = &quot;Неизвестна.&quot;) {" ID="ID_951190296" CREATED="1717155927819" MODIFIED="1717156015892"/>
 </node>
+</node>
+</node>
+</node>
+<node TEXT="Как взять значения переменных из функций" ID="ID_32536868" CREATED="1717402249604" MODIFIED="1717402278507">
+<node TEXT="return.png" ID="ID_430365498" CREATED="1717402599183" MODIFIED="1717402599183">
+<hook URI="JS_files/return.png" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="В return может быть строка что угодно, но через запятую возращать нельзя" ID="ID_875932593" CREATED="1717402761584" MODIFIED="1717402798075"/>
+</node>
+<node TEXT="return2.png" ID="ID_1146372567" CREATED="1717409595688" MODIFIED="1717409595688">
+<hook URI="JS_files/return2.png" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="еще проще" ID="ID_996333705" CREATED="1717409600763" MODIFIED="1717409604645"/>
+</node>
+<node TEXT="Где используется -- говорит что везде. Например" ID="ID_1340815836" CREATED="1717410974048" MODIFIED="1717410994419">
+<node TEXT="const mangoPrice = getGoodPrice(&quot;Манго&quot;);&#xa;console.log(`Цена манго: ${mangoPrice}`);&#xa;&#xa;const avocadoPrice = getGoodPrice(&quot;Авокадо&quot;);&#xa;console.log(`Цена авокадо: ${avocadoPrice}`);&#xa;&#xa;function getGoodPrice(good) {&#xa;  switch (good) {&#xa;    case &quot;Бананы&quot;:&#xa;      return 50;&#xa;    case &quot;Манго&quot;:&#xa;      return 80;&#xa;    case &quot;Яблоки&quot;:&#xa;    case &quot;Груши&quot;:&#xa;      return 40;&#xa;    default:&#xa;      return false;&#xa;  }&#xa;}" ID="ID_487597385" CREATED="1717410995448" MODIFIED="1717410999984"/>
+<node TEXT="ещё пример" ID="ID_1519806156" CREATED="1717412500965" MODIFIED="1717412511408">
+<node TEXT="console.log(getPriceByCount(&quot;Манго&quot;, 5));&#xa;console.log(getPriceByCount(&quot;Авокадо&quot;, 50));&#xa;&#xa;function getPriceByCount(good, count) {&#xa;  const price = getGoodPrice(good);&#xa;&#xa;  if (price === false) {&#xa;    console.log(&quot;Товар не найден.&quot;)&#xa;  } else {&#xa;    return price * count;&#xa;  }&#xa;}&#xa;&#xa;function getGoodPrice(good) {&#xa;  switch (good) {&#xa;    case &quot;Бананы&quot;:&#xa;      return 50;&#xa;    case &quot;Манго&quot;:&#xa;      return 80;&#xa;    case &quot;Яблоки&quot;:&#xa;    case &quot;Груши&quot;:&#xa;      return 40;&#xa;    default:&#xa;      return false;&#xa;  }&#xa;}" ID="ID_1806106327" CREATED="1717412516549" MODIFIED="1717418050800"/>
 </node>
 </node>
 </node>
