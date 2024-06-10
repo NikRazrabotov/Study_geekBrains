@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="JS" FOLDED="false" ID="ID_1090958577" CREATED="1606664858024" MODIFIED="1716990932180" VGAP_QUANTITY="3 pt" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<hook NAME="MapStyle" background="#3c3836" zoom="0.909">
+<hook NAME="MapStyle" background="#3c3836" zoom="0.751">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/dark_gruvbox_template.mm" followedTemplateLocation="template:/dark_gruvbox_template.mm" followedMapLastTime="1714575758000" fit_to_viewport="false"/>
 
 <map_styles>
@@ -10,7 +10,7 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_602083445" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#3c3836" BACKGROUND_COLOR="#fbf1c7" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#a89984" WIDTH="2" TRANSPARENCY="255" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_602083445" STARTINCLINATION="102.75 pt;-19.5 pt;" ENDINCLINATION="102.75 pt;3 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#a89984" WIDTH="2" TRANSPARENCY="255" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_602083445" STARTINCLINATION="102.75 pt;-18.75 pt;" ENDINCLINATION="102.75 pt;3 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="11" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#93a1a1" WIDTH="3" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -149,7 +149,7 @@
     </p>
   </body>
 </html></richcontent>
-<node TEXT="function sayPrice() {&#xa;  console.log(&quot;Цена на бананы 50 руб./кг&quot;);&#xa;}" ID="ID_214859706" CREATED="1717153872261" MODIFIED="1717153955190">
+<node TEXT="function sayPrice() {&#xa;  console.log(&quot;Цена на бананы 50 руб./кг&quot;);&#xa;}" FOLDED="true" ID="ID_214859706" CREATED="1717153872261" MODIFIED="1717153955190">
 <font SIZE="10"/>
 <node TEXT="С начало создаем функцию, потом вызываем функцию.&#xa;&#xa;sayPrice();" ID="ID_1840223407" CREATED="1717153967179" MODIFIED="1717154002144"/>
 </node>
@@ -157,11 +157,11 @@
 <node TEXT="alert()" POSITION="bottom_or_right" ID="ID_1293715191" CREATED="1717154004838" MODIFIED="1717154009250"/>
 <node TEXT="prompt()" ID="ID_1012972083" CREATED="1717154050569" MODIFIED="1717154055675"/>
 </node>
-<node TEXT="что бы посмотреть что делает функция внутри.&#xa;в инспекторе кода нажать F11" ID="ID_675423633" CREATED="1717154116781" MODIFIED="1717154146018">
+<node TEXT="что бы посмотреть что делает функция внутри.&#xa;в инспекторе кода нажать F11" FOLDED="true" ID="ID_675423633" CREATED="1717154116781" MODIFIED="1717154146018">
 <node TEXT="функцию можно объявлять где угодно" ID="ID_692893317" CREATED="1717154221524" MODIFIED="1717154236272"/>
 <node TEXT="функции можно передавать какие то данные" ID="ID_1378606838" CREATED="1717154300690" MODIFIED="1717154314781"/>
 </node>
-<node TEXT="Примеры" ID="ID_967434471" CREATED="1717154381647" MODIFIED="1717154385306">
+<node TEXT="Примеры" FOLDED="true" ID="ID_967434471" CREATED="1717154381647" MODIFIED="1717154385306">
 <node TEXT="let myGood = prompt(&quot;Введите товар&quot;);&#xa;sayPrice(myGood);&#xa;sayPrice(&quot;Манго&quot;);&#xa;&#xa;function sayPrice(good) {&#xa;  if (good === &quot;Бананы&quot;) {&#xa;    alert(&quot;Цена на бананы 50 руб./кг.&quot;);&#xa;  } else if (good === &quot;Манго&quot;) {&#xa;    alert(&quot;Цена на манго 80 руб./кг.&quot;);&#xa;  } else if (good === &quot;Яблоки&quot; || good ===    &quot;Груши&quot;) {&#xa;    alert(&quot;На яблоки и груши одна цена - 40 руб./кг.&quot;);&#xa;  } else {&#xa;    alert(&quot;Неизвестный фрукт&quot;);&#xa;  }&#xa;}" ID="ID_1756083800" CREATED="1717154393808" MODIFIED="1717154628997" MAX_WIDTH="20 cm">
 <font SIZE="12"/>
 <node TEXT="sayPrice(myGood);" ID="ID_108162713" CREATED="1717155625582" MODIFIED="1717155642793">
@@ -172,7 +172,7 @@
 <node TEXT="В скобках это параметры." ID="ID_160648864" CREATED="1717155501318" MODIFIED="1717155513480"/>
 <node TEXT="Можно принимать функцией множество параметров&#xa;good, red, car = это названия переменных расположеных внутри функции" ID="ID_1591095429" CREATED="1717155526519" MODIFIED="1717155599432"/>
 </node>
-<node TEXT="по умолчанию" ID="ID_1073299876" CREATED="1717155900273" MODIFIED="1717409825419" VGAP_QUANTITY="3 pt">
+<node TEXT="по умолчанию" FOLDED="true" ID="ID_1073299876" CREATED="1717155900273" MODIFIED="1717409825419" VGAP_QUANTITY="3 pt">
 <node TEXT="умолчанию.png" ID="ID_1570593337" CREATED="1717155915512" MODIFIED="1717409829504" HGAP_QUANTITY="56 pt" VSHIFT_QUANTITY="-5.25 pt">
 <hook URI="JS_files/умолчанию.png" SIZE="1.0" NAME="ExternalObject"/>
 <node TEXT="Имеется ввиду что в последнем sayPrice() ни чего не передали. А если ничего не передали то выведет Undefiend, что бы этого не было, нужно прописать&#xa;function sayPrice(price = &quot;Неизвестна.&quot;) {" ID="ID_951190296" CREATED="1717155927819" MODIFIED="1717156015892"/>
@@ -180,7 +180,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Как взять значения переменных из функций" ID="ID_32536868" CREATED="1717402249604" MODIFIED="1717402278507">
+<node TEXT="Как взять значения переменных из функций" FOLDED="true" ID="ID_32536868" CREATED="1717402249604" MODIFIED="1717402278507">
 <node TEXT="return.png" ID="ID_430365498" CREATED="1717402599183" MODIFIED="1717402599183">
 <hook URI="JS_files/return.png" SIZE="1.0" NAME="ExternalObject"/>
 <node TEXT="В return может быть строка что угодно, но через запятую возращать нельзя" ID="ID_875932593" CREATED="1717402761584" MODIFIED="1717402798075"/>
@@ -189,7 +189,7 @@
 <hook URI="JS_files/return2.png" SIZE="1.0" NAME="ExternalObject"/>
 <node TEXT="еще проще" ID="ID_996333705" CREATED="1717409600763" MODIFIED="1717409604645"/>
 </node>
-<node TEXT="Где используется -- говорит что везде. Например" ID="ID_1340815836" CREATED="1717410974048" MODIFIED="1717410994419">
+<node TEXT="Где используется -- говорит что везде. Например" FOLDED="true" ID="ID_1340815836" CREATED="1717410974048" MODIFIED="1717410994419">
 <node TEXT="const mangoPrice = getGoodPrice(&quot;Манго&quot;);&#xa;console.log(`Цена манго: ${mangoPrice}`);&#xa;&#xa;const avocadoPrice = getGoodPrice(&quot;Авокадо&quot;);&#xa;console.log(`Цена авокадо: ${avocadoPrice}`);&#xa;&#xa;function getGoodPrice(good) {&#xa;  switch (good) {&#xa;    case &quot;Бананы&quot;:&#xa;      return 50;&#xa;    case &quot;Манго&quot;:&#xa;      return 80;&#xa;    case &quot;Яблоки&quot;:&#xa;    case &quot;Груши&quot;:&#xa;      return 40;&#xa;    default:&#xa;      return false;&#xa;  }&#xa;}" ID="ID_487597385" CREATED="1717410995448" MODIFIED="1717410999984"/>
 <node TEXT="ещё пример" ID="ID_1519806156" CREATED="1717412500965" MODIFIED="1717412511408">
 <node TEXT="console.log(getPriceByCount(&quot;Манго&quot;, 5));&#xa;console.log(getPriceByCount(&quot;Авокадо&quot;, 50));&#xa;&#xa;function getPriceByCount(good, count) {&#xa;  const price = getGoodPrice(good);&#xa;&#xa;  if (price === false) {&#xa;    console.log(&quot;Товар не найден.&quot;)&#xa;  } else {&#xa;    return price * count;&#xa;  }&#xa;}&#xa;&#xa;function getGoodPrice(good) {&#xa;  switch (good) {&#xa;    case &quot;Бананы&quot;:&#xa;      return 50;&#xa;    case &quot;Манго&quot;:&#xa;      return 80;&#xa;    case &quot;Яблоки&quot;:&#xa;    case &quot;Груши&quot;:&#xa;      return 40;&#xa;    default:&#xa;      return false;&#xa;  }&#xa;}" ID="ID_1806106327" CREATED="1717412516549" MODIFIED="1717418050800"/>
