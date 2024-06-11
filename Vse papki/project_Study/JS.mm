@@ -10,7 +10,7 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_602083445" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#3c3836" BACKGROUND_COLOR="#fbf1c7" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#a89984" WIDTH="2" TRANSPARENCY="255" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_602083445" STARTINCLINATION="102.75 pt;-18.75 pt;" ENDINCLINATION="102.75 pt;3 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#a89984" WIDTH="2" TRANSPARENCY="255" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_602083445" STARTINCLINATION="102.75 pt;-18 pt;" ENDINCLINATION="102.75 pt;3 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="11" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#93a1a1" WIDTH="3" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -82,7 +82,7 @@
 <node TEXT="Добавляет 32" ID="ID_1670219611" CREATED="1717054020817" MODIFIED="1717054029253"/>
 </node>
 </node>
-<node TEXT="Условия" FOLDED="true" POSITION="bottom_or_right" ID="ID_1165473792" CREATED="1716979630581" MODIFIED="1716979637263">
+<node TEXT="Условия" POSITION="bottom_or_right" ID="ID_1165473792" CREATED="1716979630581" MODIFIED="1716979637263">
 <node TEXT="if else" ID="ID_960852950" CREATED="1716979638092" MODIFIED="1716980033793" VGAP_QUANTITY="3 pt">
 <node TEXT="const goodsCount = 0;&#xa;if (goodsCount &gt; 0) {&#xa;  console.log(`Количество товаров: ${goodsCount}`);&#xa;} else {&#xa;  console.log(`Корзина пуста.`);&#xa;}" ID="ID_1999804357" CREATED="1716979648838" MODIFIED="1716980490755" HGAP_QUANTITY="24.5 pt" MAX_WIDTH="20 cm" MIN_WIDTH="11 cm"/>
 <node TEXT="операнды" ID="ID_246474336" CREATED="1716980462699" MODIFIED="1716980618203">
@@ -97,12 +97,17 @@
 </node>
 </node>
 <node TEXT="тернарные" ID="ID_604392943" CREATED="1716980475946" MODIFIED="1716980478709">
-<node TEXT="goodsCount &gt; 0&#xa;  ? console.log(`Количество товаров: ${goodsCount}`)&#xa;  : console.log(`Корзина пуста.`);&#xa;&#xa;console.log(goodsCount &gt; 0 ? `Количество товаров: ${goodsCount}` : `Корзина пуста.`" ID="ID_1394391282" CREATED="1716980480139" MODIFIED="1716980494072"/>
-<node TEXT="? :" ID="ID_728105591" CREATED="1716980497410" MODIFIED="1716980510964"/>
+<node TEXT="const goodsCount = 0;&#xa;  if (goodsCount &gt; 0) {&#xa;  console.log (`Количество товаров: ${goodsCount}`);&#xa;} else {&#xa;  console.log(&quot;Корзина пуста.&quot;);&#xa;}&#xa;&#xa;console.log  (goodsCount &gt; 0&#xa;  ? `Количество товаров: ${goodsCount}`)&#xa;   : (&quot;Корзина пуста.&quot;);" ID="ID_1394391282" CREATED="1716980480139" MODIFIED="1718090896249" ICON_SIZE="20 pt" MAX_WIDTH="12 cm">
+<font SIZE="10"/>
+<node TEXT="первый и второй одно и тоже" ID="ID_1201228205" CREATED="1718090414673" MODIFIED="1718090431387"/>
+<node TEXT="Использовать последний пример если совсем простое условие.&#xa;И в тернарным операндом не могу несколько условий сделать" ID="ID_758723026" CREATED="1718090487912" MODIFIED="1718090546601"/>
+<node TEXT="У него три операнда" POSITION="bottom_or_right" ID="ID_728105591" CREATED="1716980497410" MODIFIED="1718090043480"/>
+</node>
+<node TEXT="console.log(goodsCount &gt; 0 ? `Количество товаров: ${goodsCount}` : &quot;Корзина пуста.&quot;);" ID="ID_814699751" CREATED="1718090573575" MODIFIED="1718090768885" MAX_WIDTH="17 cm"/>
 </node>
 </node>
 </node>
-<node TEXT="if (){&#xa;&#xa;} else if () {&#xa;&#xa;} else {}" FOLDED="true" ID="ID_420451969" CREATED="1716980628057" MODIFIED="1717146364263" ICON_SIZE="8 pt" COLOR="#96dbb0" BACKGROUND_COLOR="#035d99" STYLE="fork" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="5 pt" UNIFORM_SHAPE="true" MAX_WIDTH="7 cm">
+<node TEXT="if (){&#xa;&#xa;} else if () {&#xa;&#xa;} else {}" ID="ID_420451969" CREATED="1716980628057" MODIFIED="1717146364263" ICON_SIZE="8 pt" COLOR="#96dbb0" BACKGROUND_COLOR="#035d99" STYLE="fork" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="5 pt" UNIFORM_SHAPE="true" MAX_WIDTH="7 cm">
 <font SIZE="12"/>
 <node TEXT="if else" FOLDED="true" POSITION="bottom_or_right" ID="ID_1563083443" CREATED="1717146191846" MODIFIED="1717146201639">
 <node TEXT="const good = prompt(&quot;Введите товар&quot;);&#xa;if (good === &quot;Бананы&quot;) {&#xa;    console.log(&quot;Цена на бананы 50 руб./кг.&quot;);&#xa;} else if (good === &quot;Манго&quot;) {&#xa;    console.log(&quot;Цена на манго 80 руб./кг.&quot;);&#xa;} else if (good === &quot;Яблоки&quot; || good === &quot;Груши&quot;) {&#xa;    console.log(&quot;На яблоки и груши одна цена - 40 руб./кг.&quot;);&#xa;} else {&#xa;    console.log(&quot;Неизвестный фрукт&quot;);&#xa;}" POSITION="bottom_or_right" ID="ID_1733249433" CREATED="1716981579078" MODIFIED="1716981584505"/>
@@ -180,7 +185,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Как взять значения переменных из функций" FOLDED="true" ID="ID_32536868" CREATED="1717402249604" MODIFIED="1717402278507">
+<node TEXT="Как взять значения переменных из функций" ID="ID_32536868" CREATED="1717402249604" MODIFIED="1717402278507">
 <node TEXT="return.png" ID="ID_430365498" CREATED="1717402599183" MODIFIED="1717402599183">
 <hook URI="JS_files/return.png" SIZE="1.0" NAME="ExternalObject"/>
 <node TEXT="В return может быть строка что угодно, но через запятую возращать нельзя" ID="ID_875932593" CREATED="1717402761584" MODIFIED="1717402798075"/>
