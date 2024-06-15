@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="JS" FOLDED="false" ID="ID_1090958577" CREATED="1606664858024" MODIFIED="1716990932180" VGAP_QUANTITY="3 pt" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW">
+<node TEXT="JS" FOLDED="false" ID="ID_1090958577" CREATED="1606664858024" MODIFIED="1718445557619" VGAP_QUANTITY="3 pt" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <hook NAME="MapStyle" background="#3c3836" zoom="0.751">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/dark_gruvbox_template.mm" followedTemplateLocation="template:/dark_gruvbox_template.mm" followedMapLastTime="1714575758000" fit_to_viewport="false"/>
@@ -10,7 +10,7 @@
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_602083445" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#3c3836" BACKGROUND_COLOR="#fbf1c7" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#a89984" WIDTH="2" TRANSPARENCY="255" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_602083445" STARTINCLINATION="102.75 pt;-18 pt;" ENDINCLINATION="102.75 pt;3 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#a89984" WIDTH="2" TRANSPARENCY="255" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_602083445" STARTINCLINATION="102.75 pt;-15.75 pt;" ENDINCLINATION="102.75 pt;3 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="11" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#93a1a1" WIDTH="3" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -73,7 +73,19 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="переменные объявления&#xa;добавление и т д" POSITION="bottom_or_right" ID="ID_602536385" CREATED="1717053944767" MODIFIED="1717063026018" COLOR="#83bcd5" BACKGROUND_COLOR="#5e065e">
+<richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Если что пиши в поиск Math.random MDN это сайт мазилы.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="переменные объявления&#xa;добавление и т д&#xa;&#xa;Существительное--&#xa;что то хранит" POSITION="bottom_or_right" ID="ID_602536385" CREATED="1717053944767" MODIFIED="1718370234087" COLOR="#83bcd5" BACKGROUND_COLOR="#5e065e">
 <font SIZE="12"/>
 <node TEXT="let p = 1;&#xa;p++;" ID="ID_75442767" CREATED="1717053966612" MODIFIED="1717053988777">
 <node TEXT="Добавляет 1" ID="ID_1376253913" CREATED="1717053998466" MODIFIED="1717054005042"/>
@@ -82,7 +94,7 @@
 <node TEXT="Добавляет 32" ID="ID_1670219611" CREATED="1717054020817" MODIFIED="1717054029253"/>
 </node>
 </node>
-<node TEXT="Условия" POSITION="bottom_or_right" ID="ID_1165473792" CREATED="1716979630581" MODIFIED="1716979637263">
+<node TEXT="Условия" FOLDED="true" POSITION="bottom_or_right" ID="ID_1165473792" CREATED="1716979630581" MODIFIED="1716979637263">
 <node TEXT="if else" ID="ID_960852950" CREATED="1716979638092" MODIFIED="1716980033793" VGAP_QUANTITY="3 pt">
 <node TEXT="const goodsCount = 0;&#xa;if (goodsCount &gt; 0) {&#xa;  console.log(`Количество товаров: ${goodsCount}`);&#xa;} else {&#xa;  console.log(`Корзина пуста.`);&#xa;}" ID="ID_1999804357" CREATED="1716979648838" MODIFIED="1716980490755" HGAP_QUANTITY="24.5 pt" MAX_WIDTH="20 cm" MIN_WIDTH="11 cm"/>
 <node TEXT="операнды" ID="ID_246474336" CREATED="1716980462699" MODIFIED="1716980618203">
@@ -137,7 +149,7 @@
 </node>
 </node>
 </node>
-<node TEXT="функция" POSITION="top_or_left" ID="ID_1667067628" CREATED="1716990923504" MODIFIED="1717147563800"><richcontent TYPE="NOTE">
+<node TEXT="функция&#xa;&#xa;Глагол -- Что то делает" FOLDED="true" POSITION="top_or_left" ID="ID_1667067628" CREATED="1716990923504" MODIFIED="1718370250349"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -166,8 +178,9 @@
 <node TEXT="функцию можно объявлять где угодно" ID="ID_692893317" CREATED="1717154221524" MODIFIED="1717154236272"/>
 <node TEXT="функции можно передавать какие то данные" ID="ID_1378606838" CREATED="1717154300690" MODIFIED="1717154314781"/>
 </node>
-<node TEXT="Примеры" FOLDED="true" ID="ID_967434471" CREATED="1717154381647" MODIFIED="1717154385306">
-<node TEXT="let myGood = prompt(&quot;Введите товар&quot;);&#xa;sayPrice(myGood);&#xa;sayPrice(&quot;Манго&quot;);&#xa;&#xa;function sayPrice(good) {&#xa;  if (good === &quot;Бананы&quot;) {&#xa;    alert(&quot;Цена на бананы 50 руб./кг.&quot;);&#xa;  } else if (good === &quot;Манго&quot;) {&#xa;    alert(&quot;Цена на манго 80 руб./кг.&quot;);&#xa;  } else if (good === &quot;Яблоки&quot; || good ===    &quot;Груши&quot;) {&#xa;    alert(&quot;На яблоки и груши одна цена - 40 руб./кг.&quot;);&#xa;  } else {&#xa;    alert(&quot;Неизвестный фрукт&quot;);&#xa;  }&#xa;}" ID="ID_1756083800" CREATED="1717154393808" MODIFIED="1717154628997" MAX_WIDTH="20 cm">
+<node TEXT="Примеры" ID="ID_967434471" CREATED="1717154381647" MODIFIED="1717154385306">
+<node TEXT="sayPrice" FOLDED="true" ID="ID_1631404515" CREATED="1718348640038" MODIFIED="1718348646695">
+<node TEXT="let myGood = prompt(&quot;Введите товар&quot;);&#xa;sayPrice(myGood);&#xa;sayPrice(&quot;Манго&quot;);&#xa;&#xa;function sayPrice(good) {&#xa;  if (good === &quot;Бананы&quot;) {&#xa;    alert(&quot;Цена на бананы 50 руб./кг.&quot;);&#xa;  } else if (good === &quot;Манго&quot;) {&#xa;    alert(&quot;Цена на манго 80 руб./кг.&quot;);&#xa;  } else if (good === &quot;Яблоки&quot; || good ===    &quot;Груши&quot;) {&#xa;    alert(&quot;На яблоки и груши одна цена - 40 руб./кг.&quot;);&#xa;  } else {&#xa;    alert(&quot;Неизвестный фрукт&quot;);&#xa;  }&#xa;}" POSITION="bottom_or_right" ID="ID_1756083800" CREATED="1717154393808" MODIFIED="1717154628997" MAX_WIDTH="20 cm">
 <font SIZE="12"/>
 <node TEXT="sayPrice(myGood);" ID="ID_108162713" CREATED="1717155625582" MODIFIED="1717155642793">
 <node TEXT="В скобках называется &quot;Передать аргумент в параметр функции&quot;" ID="ID_1520543413" CREATED="1717155643159" MODIFIED="1717155666764"/>
@@ -185,7 +198,14 @@
 </node>
 </node>
 </node>
-<node TEXT="Как взять значения переменных из функций" ID="ID_32536868" CREATED="1717402249604" MODIFIED="1717402278507">
+<node TEXT="getGoodPrice" FOLDED="true" ID="ID_851431394" CREATED="1718348707308" MODIFIED="1718348721847">
+<node TEXT="console.log(getPriceByCount(&quot;Манго&quot;, 5));&#xa;console.log(getPriceByCount(&quot;Авокадо&quot;, 50));&#xa;&#xa;function getPriceByCount(good, count) {&#xa;  const price = getGoodPrice(good);&#xa;&#xa;  if (price === false) {&#xa;    console.log(&quot;Товар не найден.&quot;)&#xa;  } else {&#xa;    return price * count;&#xa;  }&#xa;}&#xa;&#xa;function getGoodPrice(good) {&#xa;  switch (good) {&#xa;    case &quot;Бананы&quot;:&#xa;      return 50;&#xa;    case &quot;Манго&quot;:&#xa;      return 80;&#xa;    case &quot;Яблоки&quot;:&#xa;    case &quot;Груши&quot;:&#xa;      return 40;&#xa;    default:&#xa;      return false;&#xa;  }&#xa;}" ID="ID_1502110924" CREATED="1718348724100" MODIFIED="1718348727449"/>
+</node>
+<node TEXT="getPriceByCount" FOLDED="true" ID="ID_1414473883" CREATED="1718348652540" MODIFIED="1718348667503">
+<node TEXT="console.log(getPriceByCount(&quot;Манго&quot;, 5));&#xa;console.log(getPriceByCount(&quot;Авокадо&quot;, 5));&#xa;&#xa;// getPriceByCount -- дай цену за кол-во товара&#xa;function getPriceByCount(good, count) {&#xa;  const price = getGoodPrice(good);&#xa;  if (price === false) {&#xa;    console.log(&quot;Товар не найден&quot;);&#xa;    return false; // return для примера как можно еще.&#xa;  }&#xa;  return price * count;&#xa;}&#xa;&#xa;function getGoodPrice(good) {&#xa;  switch (good) {&#xa;    case &quot;Бананы&quot;:&#xa;      return 50;&#xa;    case &quot;Манго&quot;:&#xa;      return 80;&#xa;    case &quot;Яблоки&quot;:&#xa;    case &quot;Груши&quot;:&#xa;      return 40;&#xa;    default:&#xa;      return false;&#xa;  }&#xa;}" ID="ID_1348732427" CREATED="1718369753734" MODIFIED="1718369755792"/>
+</node>
+</node>
+<node TEXT="Как взять значения переменных из функций" FOLDED="true" ID="ID_32536868" CREATED="1717402249604" MODIFIED="1717402278507">
 <node TEXT="return.png" ID="ID_430365498" CREATED="1717402599183" MODIFIED="1717402599183">
 <hook URI="JS_files/return.png" SIZE="1.0" NAME="ExternalObject"/>
 <node TEXT="В return может быть строка что угодно, но через запятую возращать нельзя" ID="ID_875932593" CREATED="1717402761584" MODIFIED="1717402798075"/>
@@ -201,8 +221,71 @@
 </node>
 </node>
 </node>
+<node TEXT="функция что то Делает" ID="ID_719812699" CREATED="1718370115159" MODIFIED="1718370126417">
+<node TEXT="наименование функций" ID="ID_554380568" CREATED="1718370152060" MODIFIED="1718370162804">
+<node TEXT="возращать" POSITION="bottom_or_right" ID="ID_1426297132" CREATED="1718370126765" MODIFIED="1718370132592">
+<node TEXT="get - дай что - то" ID="ID_1702528956" CREATED="1718370133068" MODIFIED="1718370149975"/>
 </node>
-<node TEXT="Циклы" POSITION="top_or_left" ID="ID_536273191" CREATED="1717052718252" MODIFIED="1717052721927">
+<node TEXT="Скажи" ID="ID_263769487" CREATED="1718370170964" MODIFIED="1718370177983">
+<node TEXT="say" ID="ID_908267062" CREATED="1718370178300" MODIFIED="1718370182271"/>
+</node>
+<node TEXT="отпечатай" ID="ID_1691105341" CREATED="1718370189652" MODIFIED="1718370195462">
+<node TEXT="print" ID="ID_779926957" CREATED="1718370195676" MODIFIED="1718370197686"/>
+</node>
+</node>
+</node>
+<node TEXT="Виды объявление фукций" ID="ID_940329183" CREATED="1718370263419" MODIFIED="1718370280438">
+<node TEXT="Стандартное объявление функции&#xa;fanction dicloration" POSITION="bottom_or_right" ID="ID_730479995" CREATED="1718370320139" MODIFIED="1718370369181">
+<node TEXT="function say(){}" POSITION="bottom_or_right" ID="ID_1104784418" CREATED="1718370281356" MODIFIED="1718370306469">
+<node TEXT="Можно её объявлять где угодно в коде, будет работать" POSITION="bottom_or_right" ID="ID_1319569967" CREATED="1718370379858" MODIFIED="1718370405972"/>
+</node>
+</node>
+<node TEXT="fuction expretion" FOLDED="true" ID="ID_306897080" CREATED="1718371958823" MODIFIED="1718371973602">
+<node TEXT="let func = function () {};" ID="ID_1329328526" CREATED="1718371974310" MODIFIED="1718372000697">
+<node TEXT="Функцию кладем в переменную, но вызвать мы ее сможем только после того как ее написали, так как интрепретатор не будет знать что происходит" FOLDED="true" ID="ID_304066182" CREATED="1718372001678" MODIFIED="1718372069864">
+<node TEXT="пример мы не можем сделать так" ID="ID_578957889" CREATED="1718372071182" MODIFIED="1718372080496">
+<node TEXT="func();&#xa;&#xa;let func = function (){&#xa;console.log(&quot;Вызвали функцию&quot;);&#xa;};" ID="ID_1167815393" CREATED="1718372080830" MODIFIED="1718372169432"/>
+</node>
+<node TEXT="только после её объявления" ID="ID_460581888" CREATED="1718372176973" MODIFIED="1718372188511">
+<node TEXT="let func = function (){&#xa;console.log(&quot;Вызвали функцию&quot;);&#xa;};&#xa;&#xa;func();" ID="ID_1744897651" CREATED="1718372080830" MODIFIED="1718372204217"/>
+</node>
+<node TEXT="И обязательно ставить точку с запятой. так как мы кладем что то в переменную" ID="ID_51103330" CREATED="1718372208943" MODIFIED="1718372230663"/>
+<node TEXT="Имя у фун-ии присваевается то которое у переменной" ID="ID_370909530" CREATED="1718372308132" MODIFIED="1718372332686"/>
+</node>
+</node>
+<node TEXT="functionExpretion.png" ID="ID_691199456" CREATED="1718372492440" MODIFIED="1718372492440">
+<hook URI="JS_files/functionExpretion.png" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="То что после function мы можем  использовать только внутри функции" ID="ID_227394484" CREATED="1718372500083" MODIFIED="1718372546710"/>
+<node TEXT="А так во вне этой функции она вызвается func" ID="ID_15722092" CREATED="1718372579946" MODIFIED="1718372601052"/>
+<node TEXT="Что бы вызвать этуу функцию это рекурсия" ID="ID_1518737275" CREATED="1718372559819" MODIFIED="1718372573532"/>
+</node>
+</node>
+<node TEXT="стрелочные функции" ID="ID_349074213" CREATED="1718372647833" MODIFIED="1718372716011" BACKGROUND_COLOR="#33ffff">
+<node TEXT="const func = () =&gt; console.log(123);" ID="ID_1058687447" CREATED="1718372656193" MODIFIED="1718372685963"/>
+</node>
+</node>
+<node TEXT="return; -- прерви функцию, и верни значение." ID="ID_953579556" CREATED="1718373127502" MODIFIED="1718373153234"/>
+<node TEXT="внутри функции если я хочу обратиться к переменной, то обращаюсь без создавания ее" ID="ID_1125706700" CREATED="1718444751431" MODIFIED="1718444786801">
+<node TEXT="function.png" ID="ID_987672679" CREATED="1718444815195" MODIFIED="1718444815195">
+<hook URI="JS_files/function.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+<node TEXT="а здесь создал внутри функции переменную" FOLDED="true" ID="ID_433409738" CREATED="1718444821814" MODIFIED="1718444858176">
+<node TEXT="function1.png" ID="ID_1836689228" CREATED="1718444843021" MODIFIED="1718444843021">
+<hook URI="JS_files/function1.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Не стоит того чтобы функция записывала во внешнию переменную" ID="ID_1881531325" CREATED="1718444914452" MODIFIED="1718444935903">
+<node TEXT="плохая практика" ID="ID_107581943" CREATED="1718444936437" MODIFIED="1718444941511"/>
+<node TEXT="Внешние переменные это глобальные" ID="ID_1063202636" CREATED="1718444946405" MODIFIED="1718444959942"/>
+</node>
+</node>
+<node TEXT="взаимодействие с пользователем" ID="ID_1658324577" CREATED="1718446881101" MODIFIED="1718446899648">
+<node TEXT="confirm.png" ID="ID_1727180514" CREATED="1718446919433" MODIFIED="1718446919433">
+<hook URI="JS_files/confirm.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+<node TEXT="Циклы" FOLDED="true" POSITION="top_or_left" ID="ID_536273191" CREATED="1717052718252" MODIFIED="1717052721927">
 <node TEXT="while" FOLDED="true" ID="ID_596111608" CREATED="1717052722255" MODIFIED="1717052732294">
 <node TEXT="let counter1 = 0;&#xa;&#xa;while (counter1 &lt;5) {&#xa;console.log(&quot;*****------&quot;);&#xa;counter1 ++;&#xa;}" ID="ID_684547301" CREATED="1717052732722" MODIFIED="1717052828780">
 <node TEXT="цикл будет бесконечно крутиться пока не обновить переменую до false" ID="ID_1724129213" CREATED="1717052998473" MODIFIED="1717053040527"/>
@@ -215,6 +298,59 @@
 <node TEXT="интересный пример" FOLDED="true" ID="ID_211509912" CREATED="1717053293742" MODIFIED="1717053303237">
 <node TEXT="for (let i = 1; i &lt; 5; i++) {&#xa;console.log(&quot;Round &quot; + i);&#xa;}" ID="ID_1350993349" CREATED="1717053303471" MODIFIED="1717053370997"/>
 </node>
+</node>
+</node>
+<node TEXT="И обязательно ставить точку с запятой. так как мы кладем что то в переменную" POSITION="top_or_left" ID="ID_56818805" CREATED="1718372208943" MODIFIED="1718372230663"/>
+<node TEXT="рекрусия&#xa;ни чего страшного если пропущу.&#xa;знать нужно, но редко используется" FOLDED="true" POSITION="top_or_left" ID="ID_661179556" CREATED="1718373171006" MODIFIED="1718444429864"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Рекурсия = это функция которая может вызывать саму себя
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="Рекрусия.png" ID="ID_18451700" CREATED="1718374252421" MODIFIED="1718374252421">
+<hook URI="JS_files/Рекрусия.png" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="с начало выполняется подсчет в скобках, и записывает результат, потом снова идёт по условию, доходит до вычитания, и снова записывает результат, и так делается по кругу пока не дойдет пока первое условие выполнится, потом будет складывать записанные результаты, то что после скобок." ID="ID_550028192" CREATED="1718374259614" MODIFIED="1718374394718">
+<node TEXT="Рекрусия1.png" ID="ID_958789856" CREATED="1718375253366" MODIFIED="1718375253366">
+<hook URI="JS_files/Рекрусия1.png" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="Интересная проверка на -число, и на дробное число&#xa;if ( x &lt;= 0 || !Number.isInteger(x)) {&#xa;  return NaN;&#xa;}&#xa;...." ID="ID_931648637" CREATED="1718375256470" MODIFIED="1718375333033"/>
+<node TEXT="Но такой вариант проверки плох, потому что&#xa;проверка идет каждый раз внутри функции на целое число, или минус. Достаточно одного раза во вне функции." ID="ID_836609494" CREATED="1718375370421" MODIFIED="1718375448839">
+<node TEXT="Рекрусия2.png" ID="ID_158356836" CREATED="1718375519270" MODIFIED="1718375519270">
+<hook URI="JS_files/Рекрусия2.png" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="Такой вариант верный" ID="ID_727422985" CREATED="1718375521708" MODIFIED="1718375531814"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="объекты" FOLDED="true" POSITION="top_or_left" ID="ID_206699513" CREATED="1718445036204" MODIFIED="1718445042637">
+<node TEXT="Math.round" ID="ID_303174535" CREATED="1718445043035" MODIFIED="1718445051101">
+<node TEXT="библиотека которая работает с числами" ID="ID_1362687510" CREATED="1718445051388" MODIFIED="1718445060526"/>
+</node>
+<node TEXT="Math.random()" ID="ID_1471705921" CREATED="1718445137059" MODIFIED="1718445145357">
+<node TEXT="Math.random()" ID="ID_855531481" CREATED="1718445137059" MODIFIED="1718445145357">
+<node TEXT="0,7627356788627837" ID="ID_1775084259" CREATED="1718445287450" MODIFIED="1718445300332"/>
+</node>
+<node TEXT="псевдо-рандомное число, на основе наносикунд" ID="ID_118124001" CREATED="1718445145715" MODIFIED="1718445767434"/>
+<node TEXT="Math.random() * 100" ID="ID_1561006470" CREATED="1718445231786" MODIFIED="1718445248500">
+<node TEXT="передвигаем точку" ID="ID_269157405" CREATED="1718445248722" MODIFIED="1718445273500">
+<node TEXT="76,27356788627837" ID="ID_723503320" CREATED="1718445306090" MODIFIED="1718445319780"/>
+</node>
+<node TEXT="Math.floor(Math.random() * 100);" ID="ID_320980173" CREATED="1718445366994" MODIFIED="1718445446444">
+<node TEXT="Округлили" ID="ID_1776541828" CREATED="1718445394537" MODIFIED="1718445398923"/>
+<node TEXT="функция Math.floor округляет вниз значения" ID="ID_489783860" CREATED="1718445405385" MODIFIED="1718445442638"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Games" POSITION="top_or_left" ID="ID_1167545847" CREATED="1718447347842" MODIFIED="1718447352684">
+<node TEXT="Угадай число" FOLDED="true" ID="ID_1228374979" CREATED="1718447353139" MODIFIED="1718447357980">
+<node TEXT="// Угадай число&#xa;let number; // будет хранится число которое загадал комп, а игрок должен отгадать&#xa;let attempts; // ( Кол-во ) сколько пользователь сделал попыток, чтобы число отгадать.&#xa;&#xa;resetGame();&#xa;tryGuessNumber();&#xa;&#xa;function resetGame() {&#xa;  attempts = 0;&#xa;  number = Math.floor(Math.random() * 100);&#xa;}&#xa;&#xa;function tryGuessNumber() {&#xa;  const userAnswer = parseInt(prompt(&quot;Введите число от 0 до 100, для выхода наберите -1.&quot;));&#xa;&#xa;  if (userAnswer === -1) {&#xa;    alert(&quot;До свидания!&quot;)&#xa;    return; //Выход из игры. (return поставлен что бы выйти если даже будет написан далее код)&#xa;  }&#xa;&#xa;  if (Number.isNaN(userAnswer) || userAnswer &lt; 0 || userAnswer &gt; 99) {// Проверка на корректность вводимы чисел, не строк.&#xa;    alert(&apos;Необходимо ввести целое число от 0 до 100.&apos;);&#xa;    tryGuessNumber();&#xa;    return;&#xa;  }&#xa;&#xa;  attempts++;&#xa;&#xa;  if (userAnswer &gt; number) {&#xa;    alert(&quot;Попробую ввести число меньше.&quot;)&#xa;  } else if (userAnswer &lt; number) {&#xa;    alert(&quot;Попробую ввести число по больше&quot;)&#xa;  } else {&#xa;    alert(`Поздравляю! Вы угадали число с ${attempts} попытки.`);&#xa;&#xa;    if (!confirm(&quot;Хотите сыграть ещё раз?&quot;)) {&#xa;      alert(&quot;До свидания!&quot;)&#xa;      return;&#xa;    }&#xa;    resetGame();&#xa;  }&#xa;&#xa;&#xa;  tryGuessNumber();&#xa;}" ID="ID_1093566493" CREATED="1718447359426" MODIFIED="1718447390826" MAX_WIDTH="30 cm"/>
 </node>
 </node>
 </node>
