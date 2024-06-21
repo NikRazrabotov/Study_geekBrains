@@ -1,16 +1,16 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="JS" FOLDED="false" ID="ID_1090958577" CREATED="1606664858024" MODIFIED="1718445557619" VGAP_QUANTITY="3 pt" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_FLOW">
+<node TEXT="JS" FOLDED="false" ID="ID_1090958577" CREATED="1606664858024" MODIFIED="1718865393565" VGAP_QUANTITY="3 pt" CHILD_NODES_LAYOUT="TOPTOBOTTOM_BOTHSIDES_CENTERED">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <hook NAME="MapStyle" background="#3c3836" zoom="0.751">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/dark_gruvbox_template.mm" followedTemplateLocation="template:/dark_gruvbox_template.mm" followedMapLastTime="1714575758000" fit_to_viewport="false"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/dark_gruvbox_template.mm" followedTemplateLocation="template:/dark_gruvbox_template.mm" followedMapLastTime="1699818412000" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_602083445" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#3c3836" BACKGROUND_COLOR="#fbf1c7" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID" VGAP_QUANTITY="3 pt">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#a89984" WIDTH="2" TRANSPARENCY="255" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_602083445" STARTINCLINATION="102.75 pt;-15.75 pt;" ENDINCLINATION="102.75 pt;3 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#a89984" WIDTH="2" TRANSPARENCY="255" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_602083445" STARTINCLINATION="102.75 pt;-14.25 pt;" ENDINCLINATION="102.75 pt;3 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="11" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="bezier" COLOR="#93a1a1" WIDTH="3" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
@@ -83,9 +83,8 @@
       Если что пиши в поиск Math.random MDN это сайт мазилы.
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="переменные объявления&#xa;добавление и т д&#xa;&#xa;Существительное--&#xa;что то хранит" POSITION="bottom_or_right" ID="ID_602536385" CREATED="1717053944767" MODIFIED="1718370234087" COLOR="#83bcd5" BACKGROUND_COLOR="#5e065e">
+</html></richcontent>
+<node TEXT="переменные объявления&#xa;добавление и т д&#xa;&#xa;Существительное--&#xa;что то хранит" POSITION="bottom_or_right" ID="ID_602536385" CREATED="1717053944767" MODIFIED="1718865440936" COLOR="#83bcd5" BACKGROUND_COLOR="#5e065e" HGAP_QUANTITY="97.25 pt" VSHIFT_QUANTITY="-13.5 pt">
 <font SIZE="12"/>
 <node TEXT="let p = 1;&#xa;p++;" ID="ID_75442767" CREATED="1717053966612" MODIFIED="1717053988777">
 <node TEXT="Добавляет 1" ID="ID_1376253913" CREATED="1717053998466" MODIFIED="1717054005042"/>
@@ -94,62 +93,7 @@
 <node TEXT="Добавляет 32" ID="ID_1670219611" CREATED="1717054020817" MODIFIED="1717054029253"/>
 </node>
 </node>
-<node TEXT="Условия" FOLDED="true" POSITION="bottom_or_right" ID="ID_1165473792" CREATED="1716979630581" MODIFIED="1716979637263">
-<node TEXT="if else" ID="ID_960852950" CREATED="1716979638092" MODIFIED="1716980033793" VGAP_QUANTITY="3 pt">
-<node TEXT="const goodsCount = 0;&#xa;if (goodsCount &gt; 0) {&#xa;  console.log(`Количество товаров: ${goodsCount}`);&#xa;} else {&#xa;  console.log(`Корзина пуста.`);&#xa;}" ID="ID_1999804357" CREATED="1716979648838" MODIFIED="1716980490755" HGAP_QUANTITY="24.5 pt" MAX_WIDTH="20 cm" MIN_WIDTH="11 cm"/>
-<node TEXT="операнды" ID="ID_246474336" CREATED="1716980462699" MODIFIED="1716980618203">
-<node TEXT="унарные" ID="ID_118593488" CREATED="1716980469890" MODIFIED="1716980472868">
-<node TEXT="+(prompt)" ID="ID_286745359" CREATED="1716980522850" MODIFIED="1716980537572">
-<node TEXT="+" ID="ID_502505972" CREATED="1716980537890" MODIFIED="1716980542692"/>
-</node>
-</node>
-<node TEXT="бинарные" ID="ID_696381767" CREATED="1716980473155" MODIFIED="1716980475668">
-<node TEXT="const name = &quot;Viktor&quot;;" ID="ID_1607396888" CREATED="1716980551498" MODIFIED="1716980571860">
-<node TEXT="бинарным операндом будет =&#xa;соединяет два оператора" ID="ID_461871598" CREATED="1716980572225" MODIFIED="1716980611515"/>
-</node>
-</node>
-<node TEXT="тернарные" ID="ID_604392943" CREATED="1716980475946" MODIFIED="1716980478709">
-<node TEXT="const goodsCount = 0;&#xa;  if (goodsCount &gt; 0) {&#xa;  console.log (`Количество товаров: ${goodsCount}`);&#xa;} else {&#xa;  console.log(&quot;Корзина пуста.&quot;);&#xa;}&#xa;&#xa;console.log  (goodsCount &gt; 0&#xa;  ? `Количество товаров: ${goodsCount}`)&#xa;   : (&quot;Корзина пуста.&quot;);" ID="ID_1394391282" CREATED="1716980480139" MODIFIED="1718090896249" ICON_SIZE="20 pt" MAX_WIDTH="12 cm">
-<font SIZE="10"/>
-<node TEXT="первый и второй одно и тоже" ID="ID_1201228205" CREATED="1718090414673" MODIFIED="1718090431387"/>
-<node TEXT="Использовать последний пример если совсем простое условие.&#xa;И в тернарным операндом не могу несколько условий сделать" ID="ID_758723026" CREATED="1718090487912" MODIFIED="1718090546601"/>
-<node TEXT="У него три операнда" POSITION="bottom_or_right" ID="ID_728105591" CREATED="1716980497410" MODIFIED="1718090043480"/>
-</node>
-<node TEXT="console.log(goodsCount &gt; 0 ? `Количество товаров: ${goodsCount}` : &quot;Корзина пуста.&quot;);" ID="ID_814699751" CREATED="1718090573575" MODIFIED="1718090768885" MAX_WIDTH="17 cm"/>
-</node>
-</node>
-</node>
-<node TEXT="if (){&#xa;&#xa;} else if () {&#xa;&#xa;} else {}" ID="ID_420451969" CREATED="1716980628057" MODIFIED="1717146364263" ICON_SIZE="8 pt" COLOR="#96dbb0" BACKGROUND_COLOR="#035d99" STYLE="fork" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="5 pt" UNIFORM_SHAPE="true" MAX_WIDTH="7 cm">
-<font SIZE="12"/>
-<node TEXT="if else" FOLDED="true" POSITION="bottom_or_right" ID="ID_1563083443" CREATED="1717146191846" MODIFIED="1717146201639">
-<node TEXT="const good = prompt(&quot;Введите товар&quot;);&#xa;if (good === &quot;Бананы&quot;) {&#xa;    console.log(&quot;Цена на бананы 50 руб./кг.&quot;);&#xa;} else if (good === &quot;Манго&quot;) {&#xa;    console.log(&quot;Цена на манго 80 руб./кг.&quot;);&#xa;} else if (good === &quot;Яблоки&quot; || good === &quot;Груши&quot;) {&#xa;    console.log(&quot;На яблоки и груши одна цена - 40 руб./кг.&quot;);&#xa;} else {&#xa;    console.log(&quot;Неизвестный фрукт&quot;);&#xa;}" POSITION="bottom_or_right" ID="ID_1733249433" CREATED="1716981579078" MODIFIED="1716981584505"/>
-</node>
-<node TEXT="switch создан для поиска чего-то" FOLDED="true" POSITION="bottom_or_right" ID="ID_1972499123" CREATED="1716990114210" MODIFIED="1716990125924">
-<node TEXT="switch (good) {&#xa;  case &quot;Бананы&quot;:&#xa;     console.log(&quot;Цена на бананы 50 руб./кг);&#xa;     break;&#xa;  case &quot;Манго&quot;:&#xa;     console.log(&quot;Цена на бананы 50 руб./кг);&#xa;     break;&#xa;  case &quot;Яблоки&quot;:&#xa;  case &quot;apples&quot;:&#xa;  case &quot;Яблочки&quot;:&#xa;  case &quot;Груши&quot;:&#xa;     console.log(&quot;Цена на бананы 50 руб./кг);&#xa;     break;&#xa;  default:" FOLDED="true" POSITION="bottom_or_right" ID="ID_1681807878" CREATED="1716989919301" MODIFIED="1716990783998">
-<node TEXT="На яблоках не встретил break, провалился ниже, и выплнил команду в Грушах. Своеобразная затычка вместо ||" ID="ID_677118162" CREATED="1716990647204" MODIFIED="1716990712932"/>
-<node TEXT="удобно искать вперечеслении" ID="ID_1645792214" CREATED="1716990786932" MODIFIED="1716990803819"/>
-<node TEXT="Что мы ищем?&#xa;Мы ищем что лежит в good" POSITION="bottom_or_right" ID="ID_352625624" CREATED="1716990135761" MODIFIED="1716990152428">
-<node TEXT="Дальше предлагаются варианты, пишутся через case" ID="ID_536723500" CREATED="1716990164562" MODIFIED="1716990185259">
-<node TEXT="после двоеточия пишется что нужно сделать если вариант поиска совпал" ID="ID_679427718" CREATED="1716990192160" MODIFIED="1716990219314"/>
-</node>
-</node>
-<node TEXT="default:" POSITION="bottom_or_right" ID="ID_72443531" CREATED="1716990240480" MODIFIED="1716990248443">
-<node TEXT="Если мы ничего не нашили то выполняем defolt" ID="ID_1942942945" CREATED="1716990249160" MODIFIED="1716990268018"/>
-</node>
-<node TEXT="break; -- c анг. сломать" POSITION="bottom_or_right" ID="ID_431440021" CREATED="1716990334959" MODIFIED="1716990358952">
-<node TEXT="Завершает код, что бы далее не искал" ID="ID_1027156989" CREATED="1716990359510" MODIFIED="1716990372913"/>
-</node>
-</node>
-</node>
-</node>
-<node TEXT="пример" ID="ID_225427799" CREATED="1717062676618" MODIFIED="1717062679860">
-<node TEXT="const good = prompt(&quot;Введите товар&quot;);&#xa;&#xa;if (good === &quot;Бананы&quot;) {&#xa;    alert(&quot;Цена на бананы 50 руб./кг.&quot;);&#xa;} else if (good === &quot;Манго&quot;) {&#xa;    alert(&quot;Цена на манго 80 руб./кг.&quot;);&#xa;} else if (good === &quot;Яблоки&quot; || good === &quot;Груши&quot;) {&#xa;    alert(&quot;На яблоки и груши одна цена - 40 руб./кг.&quot;);&#xa;} else {&#xa;    alert(&quot;Неизвестный фрукт&quot;);&#xa;}" ID="ID_194103339" CREATED="1717062680161" MODIFIED="1717062683135"/>
-<node TEXT="switch (Поиск)" FOLDED="true" ID="ID_661105905" CREATED="1717410476948" MODIFIED="1717410498816">
-<node TEXT="let good = &quot;Яблоки&quot;;&#xa;sayPrice(good);&#xa;sayPrice(&quot;Манго&quot;);&#xa;&#xa;function sayPrice(good) {&#xa;  switch (good) {&#xa;    case &quot;Бананы&quot;:&#xa;      console.log(&quot;Цена на бананы 50 руб./кг.&quot;);&#xa;      break;&#xa;    case &quot;Манго&quot;:&#xa;      console.log(&quot;Цена на Манго 80 руб./кг.&quot;);&#xa;      break;&#xa;    case &quot;Яблоки&quot;:&#xa;    case &quot;Груши&quot;:&#xa;      console.log(&quot;На Яблоки и Груши одна цена - 40 руб./кг.&quot;);&#xa;      break;&#xa;    default:&#xa;      console.log(&quot;Неизвесный фрукт.&quot;)&#xa;  }&#xa;}" POSITION="bottom_or_right" ID="ID_372311709" CREATED="1717409945072" MODIFIED="1717410467173"/>
-</node>
-</node>
-</node>
-<node TEXT="функция&#xa;&#xa;Глагол -- Что то делает" FOLDED="true" POSITION="top_or_left" ID="ID_1667067628" CREATED="1716990923504" MODIFIED="1718370250349"><richcontent TYPE="NOTE">
+<node TEXT="функция&#xa;&#xa;Глагол -- Что то делает" FOLDED="true" POSITION="bottom_or_right" ID="ID_1667067628" CREATED="1716990923504" MODIFIED="1718865439412" HGAP_QUANTITY="103.25 pt"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -285,7 +229,11 @@
 </node>
 </node>
 </node>
-<node TEXT="Циклы" FOLDED="true" POSITION="top_or_left" ID="ID_536273191" CREATED="1717052718252" MODIFIED="1717052721927">
+<node TEXT="Циклы, и массивы" LOCALIZED_STYLE_REF="defaultstyle.floating" POSITION="bottom_or_right" ID="ID_1458152776" CREATED="1718865489182" MODIFIED="1718865566461" LINK="Циклы,%20и%20массивы.mm" HGAP_QUANTITY="-246.74999 pt" VSHIFT_QUANTITY="-176.99999 pt" COLOR="#ff9999" BACKGROUND_COLOR="#006666">
+<hook NAME="FreeNode"/>
+<cloud COLOR="#00cccc" SHAPE="ROUND_RECT"/>
+</node>
+<node TEXT="Циклы" FOLDED="true" POSITION="bottom_or_right" ID="ID_536273191" CREATED="1717052718252" MODIFIED="1718865437398" HGAP_QUANTITY="89.75 pt">
 <node TEXT="while" FOLDED="true" ID="ID_596111608" CREATED="1717052722255" MODIFIED="1717052732294">
 <node TEXT="let counter1 = 0;&#xa;&#xa;while (counter1 &lt;5) {&#xa;console.log(&quot;*****------&quot;);&#xa;counter1 ++;&#xa;}" ID="ID_684547301" CREATED="1717052732722" MODIFIED="1717052828780">
 <node TEXT="цикл будет бесконечно крутиться пока не обновить переменую до false" ID="ID_1724129213" CREATED="1717052998473" MODIFIED="1717053040527"/>
@@ -300,8 +248,8 @@
 </node>
 </node>
 </node>
-<node TEXT="И обязательно ставить точку с запятой. так как мы кладем что то в переменную" POSITION="top_or_left" ID="ID_56818805" CREATED="1718372208943" MODIFIED="1718372230663"/>
-<node TEXT="рекрусия&#xa;ни чего страшного если пропущу.&#xa;знать нужно, но редко используется" FOLDED="true" POSITION="top_or_left" ID="ID_661179556" CREATED="1718373171006" MODIFIED="1718444429864"><richcontent TYPE="NOTE">
+<node TEXT="И обязательно ставить точку с запятой. так как мы кладем что то в переменную" POSITION="bottom_or_right" ID="ID_56818805" CREATED="1718372208943" MODIFIED="1718865435902" HGAP_QUANTITY="87.5 pt"/>
+<node TEXT="рекрусия&#xa;ни чего страшного если пропущу.&#xa;знать нужно, но редко используется" FOLDED="true" POSITION="bottom_or_right" ID="ID_661179556" CREATED="1718373171006" MODIFIED="1718865434113" HGAP_QUANTITY="114.5 pt" VSHIFT_QUANTITY="8.25 pt"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -328,7 +276,12 @@
 </node>
 </node>
 </node>
-<node TEXT="объекты" FOLDED="true" POSITION="top_or_left" ID="ID_206699513" CREATED="1718445036204" MODIFIED="1718445042637">
+<node TEXT="Games" POSITION="bottom_or_right" ID="ID_1167545847" CREATED="1718447347842" MODIFIED="1718865453285" HGAP_QUANTITY="144.5 pt" VSHIFT_QUANTITY="25.5 pt">
+<node TEXT="Угадай число" FOLDED="true" ID="ID_1228374979" CREATED="1718447353139" MODIFIED="1718447357980">
+<node TEXT="// Угадай число&#xa;let number; // будет хранится число которое загадал комп, а игрок должен отгадать&#xa;let attempts; // ( Кол-во ) сколько пользователь сделал попыток, чтобы число отгадать.&#xa;&#xa;resetGame();&#xa;tryGuessNumber();&#xa;&#xa;function resetGame() {&#xa;  attempts = 0;&#xa;  number = Math.floor(Math.random() * 100);&#xa;}&#xa;&#xa;function tryGuessNumber() {&#xa;  const userAnswer = parseInt(prompt(&quot;Введите число от 0 до 100, для выхода наберите -1.&quot;));&#xa;&#xa;  if (userAnswer === -1) {&#xa;    alert(&quot;До свидания!&quot;)&#xa;    return; //Выход из игры. (return поставлен что бы выйти если даже будет написан далее код)&#xa;  }&#xa;&#xa;  if (Number.isNaN(userAnswer) || userAnswer &lt; 0 || userAnswer &gt; 99) {// Проверка на корректность вводимы чисел, не строк.&#xa;    alert(&apos;Необходимо ввести целое число от 0 до 100.&apos;);&#xa;    tryGuessNumber();&#xa;    return;&#xa;  }&#xa;&#xa;  attempts++;&#xa;&#xa;  if (userAnswer &gt; number) {&#xa;    alert(&quot;Попробую ввести число меньше.&quot;)&#xa;  } else if (userAnswer &lt; number) {&#xa;    alert(&quot;Попробую ввести число по больше&quot;)&#xa;  } else {&#xa;    alert(`Поздравляю! Вы угадали число с ${attempts} попытки.`);&#xa;&#xa;    if (!confirm(&quot;Хотите сыграть ещё раз?&quot;)) {&#xa;      alert(&quot;До свидания!&quot;)&#xa;      return;&#xa;    }&#xa;    resetGame();&#xa;  }&#xa;&#xa;&#xa;  tryGuessNumber();&#xa;}" ID="ID_1093566493" CREATED="1718447359426" MODIFIED="1718447390826" MAX_WIDTH="30 cm"/>
+</node>
+</node>
+<node TEXT="объекты" FOLDED="true" POSITION="bottom_or_right" ID="ID_206699513" CREATED="1718445036204" MODIFIED="1718865432030" HGAP_QUANTITY="114.5 pt" VSHIFT_QUANTITY="34.5 pt">
 <node TEXT="Math.round" ID="ID_303174535" CREATED="1718445043035" MODIFIED="1718445051101">
 <node TEXT="библиотека которая работает с числами" ID="ID_1362687510" CREATED="1718445051388" MODIFIED="1718445060526"/>
 </node>
@@ -348,9 +301,59 @@
 </node>
 </node>
 </node>
-<node TEXT="Games" POSITION="top_or_left" ID="ID_1167545847" CREATED="1718447347842" MODIFIED="1718447352684">
-<node TEXT="Угадай число" FOLDED="true" ID="ID_1228374979" CREATED="1718447353139" MODIFIED="1718447357980">
-<node TEXT="// Угадай число&#xa;let number; // будет хранится число которое загадал комп, а игрок должен отгадать&#xa;let attempts; // ( Кол-во ) сколько пользователь сделал попыток, чтобы число отгадать.&#xa;&#xa;resetGame();&#xa;tryGuessNumber();&#xa;&#xa;function resetGame() {&#xa;  attempts = 0;&#xa;  number = Math.floor(Math.random() * 100);&#xa;}&#xa;&#xa;function tryGuessNumber() {&#xa;  const userAnswer = parseInt(prompt(&quot;Введите число от 0 до 100, для выхода наберите -1.&quot;));&#xa;&#xa;  if (userAnswer === -1) {&#xa;    alert(&quot;До свидания!&quot;)&#xa;    return; //Выход из игры. (return поставлен что бы выйти если даже будет написан далее код)&#xa;  }&#xa;&#xa;  if (Number.isNaN(userAnswer) || userAnswer &lt; 0 || userAnswer &gt; 99) {// Проверка на корректность вводимы чисел, не строк.&#xa;    alert(&apos;Необходимо ввести целое число от 0 до 100.&apos;);&#xa;    tryGuessNumber();&#xa;    return;&#xa;  }&#xa;&#xa;  attempts++;&#xa;&#xa;  if (userAnswer &gt; number) {&#xa;    alert(&quot;Попробую ввести число меньше.&quot;)&#xa;  } else if (userAnswer &lt; number) {&#xa;    alert(&quot;Попробую ввести число по больше&quot;)&#xa;  } else {&#xa;    alert(`Поздравляю! Вы угадали число с ${attempts} попытки.`);&#xa;&#xa;    if (!confirm(&quot;Хотите сыграть ещё раз?&quot;)) {&#xa;      alert(&quot;До свидания!&quot;)&#xa;      return;&#xa;    }&#xa;    resetGame();&#xa;  }&#xa;&#xa;&#xa;  tryGuessNumber();&#xa;}" ID="ID_1093566493" CREATED="1718447359426" MODIFIED="1718447390826" MAX_WIDTH="30 cm"/>
+<node TEXT="Условия" FOLDED="true" POSITION="bottom_or_right" ID="ID_1165473792" CREATED="1716979630581" MODIFIED="1718865400392" HGAP_QUANTITY="129.5 pt" VSHIFT_QUANTITY="-31.5 pt">
+<node TEXT="if else" FOLDED="true" ID="ID_960852950" CREATED="1716979638092" MODIFIED="1716980033793" VGAP_QUANTITY="3 pt">
+<node TEXT="const goodsCount = 0;&#xa;if (goodsCount &gt; 0) {&#xa;  console.log(`Количество товаров: ${goodsCount}`);&#xa;} else {&#xa;  console.log(`Корзина пуста.`);&#xa;}" ID="ID_1999804357" CREATED="1716979648838" MODIFIED="1716980490755" HGAP_QUANTITY="24.5 pt" MAX_WIDTH="20 cm" MIN_WIDTH="11 cm"/>
+<node TEXT="операнды" FOLDED="true" ID="ID_246474336" CREATED="1716980462699" MODIFIED="1716980618203">
+<node TEXT="унарные" ID="ID_118593488" CREATED="1716980469890" MODIFIED="1716980472868">
+<node TEXT="+(prompt)" ID="ID_286745359" CREATED="1716980522850" MODIFIED="1716980537572">
+<node TEXT="+" ID="ID_502505972" CREATED="1716980537890" MODIFIED="1716980542692"/>
+</node>
+</node>
+<node TEXT="бинарные" ID="ID_696381767" CREATED="1716980473155" MODIFIED="1716980475668">
+<node TEXT="const name = &quot;Viktor&quot;;" ID="ID_1607396888" CREATED="1716980551498" MODIFIED="1716980571860">
+<node TEXT="бинарным операндом будет =&#xa;соединяет два оператора" ID="ID_461871598" CREATED="1716980572225" MODIFIED="1716980611515"/>
+</node>
+</node>
+<node TEXT="тернарные" ID="ID_604392943" CREATED="1716980475946" MODIFIED="1716980478709">
+<node TEXT="const goodsCount = 0;&#xa;  if (goodsCount &gt; 0) {&#xa;  console.log (`Количество товаров: ${goodsCount}`);&#xa;} else {&#xa;  console.log(&quot;Корзина пуста.&quot;);&#xa;}&#xa;&#xa;console.log  (goodsCount &gt; 0&#xa;  ? `Количество товаров: ${goodsCount}`)&#xa;   : (&quot;Корзина пуста.&quot;);" ID="ID_1394391282" CREATED="1716980480139" MODIFIED="1718090896249" ICON_SIZE="20 pt" MAX_WIDTH="12 cm">
+<font SIZE="10"/>
+<node TEXT="первый и второй одно и тоже" ID="ID_1201228205" CREATED="1718090414673" MODIFIED="1718090431387"/>
+<node TEXT="Использовать последний пример если совсем простое условие.&#xa;И в тернарным операндом не могу несколько условий сделать" ID="ID_758723026" CREATED="1718090487912" MODIFIED="1718090546601"/>
+<node TEXT="У него три операнда" POSITION="bottom_or_right" ID="ID_728105591" CREATED="1716980497410" MODIFIED="1718090043480"/>
+</node>
+<node TEXT="console.log(goodsCount &gt; 0 ? `Количество товаров: ${goodsCount}` : &quot;Корзина пуста.&quot;);" ID="ID_814699751" CREATED="1718090573575" MODIFIED="1718090768885" MAX_WIDTH="17 cm"/>
+</node>
+</node>
+</node>
+<node TEXT="if (){&#xa;&#xa;} else if () {&#xa;&#xa;} else {}" ID="ID_420451969" CREATED="1716980628057" MODIFIED="1717146364263" ICON_SIZE="8 pt" COLOR="#96dbb0" BACKGROUND_COLOR="#035d99" STYLE="fork" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="5 pt" UNIFORM_SHAPE="true" MAX_WIDTH="7 cm">
+<font SIZE="12"/>
+<node TEXT="if else" FOLDED="true" POSITION="bottom_or_right" ID="ID_1563083443" CREATED="1717146191846" MODIFIED="1717146201639">
+<node TEXT="const good = prompt(&quot;Введите товар&quot;);&#xa;if (good === &quot;Бананы&quot;) {&#xa;    console.log(&quot;Цена на бананы 50 руб./кг.&quot;);&#xa;} else if (good === &quot;Манго&quot;) {&#xa;    console.log(&quot;Цена на манго 80 руб./кг.&quot;);&#xa;} else if (good === &quot;Яблоки&quot; || good === &quot;Груши&quot;) {&#xa;    console.log(&quot;На яблоки и груши одна цена - 40 руб./кг.&quot;);&#xa;} else {&#xa;    console.log(&quot;Неизвестный фрукт&quot;);&#xa;}" POSITION="bottom_or_right" ID="ID_1733249433" CREATED="1716981579078" MODIFIED="1716981584505"/>
+</node>
+<node TEXT="switch создан для поиска чего-то" FOLDED="true" POSITION="bottom_or_right" ID="ID_1972499123" CREATED="1716990114210" MODIFIED="1716990125924">
+<node TEXT="switch (good) {&#xa;  case &quot;Бананы&quot;:&#xa;     console.log(&quot;Цена на бананы 50 руб./кг);&#xa;     break;&#xa;  case &quot;Манго&quot;:&#xa;     console.log(&quot;Цена на бананы 50 руб./кг);&#xa;     break;&#xa;  case &quot;Яблоки&quot;:&#xa;  case &quot;apples&quot;:&#xa;  case &quot;Яблочки&quot;:&#xa;  case &quot;Груши&quot;:&#xa;     console.log(&quot;Цена на бананы 50 руб./кг);&#xa;     break;&#xa;  default:" FOLDED="true" POSITION="bottom_or_right" ID="ID_1681807878" CREATED="1716989919301" MODIFIED="1716990783998">
+<node TEXT="На яблоках не встретил break, провалился ниже, и выплнил команду в Грушах. Своеобразная затычка вместо ||" ID="ID_677118162" CREATED="1716990647204" MODIFIED="1716990712932"/>
+<node TEXT="удобно искать вперечеслении" ID="ID_1645792214" CREATED="1716990786932" MODIFIED="1716990803819"/>
+<node TEXT="Что мы ищем?&#xa;Мы ищем что лежит в good" POSITION="bottom_or_right" ID="ID_352625624" CREATED="1716990135761" MODIFIED="1716990152428">
+<node TEXT="Дальше предлагаются варианты, пишутся через case" ID="ID_536723500" CREATED="1716990164562" MODIFIED="1716990185259">
+<node TEXT="после двоеточия пишется что нужно сделать если вариант поиска совпал" ID="ID_679427718" CREATED="1716990192160" MODIFIED="1716990219314"/>
+</node>
+</node>
+<node TEXT="default:" POSITION="bottom_or_right" ID="ID_72443531" CREATED="1716990240480" MODIFIED="1716990248443">
+<node TEXT="Если мы ничего не нашили то выполняем defolt" ID="ID_1942942945" CREATED="1716990249160" MODIFIED="1716990268018"/>
+</node>
+<node TEXT="break; -- c анг. сломать" POSITION="bottom_or_right" ID="ID_431440021" CREATED="1716990334959" MODIFIED="1716990358952">
+<node TEXT="Завершает код, что бы далее не искал" ID="ID_1027156989" CREATED="1716990359510" MODIFIED="1716990372913"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="пример" FOLDED="true" ID="ID_225427799" CREATED="1717062676618" MODIFIED="1717062679860">
+<node TEXT="const good = prompt(&quot;Введите товар&quot;);&#xa;&#xa;if (good === &quot;Бананы&quot;) {&#xa;    alert(&quot;Цена на бананы 50 руб./кг.&quot;);&#xa;} else if (good === &quot;Манго&quot;) {&#xa;    alert(&quot;Цена на манго 80 руб./кг.&quot;);&#xa;} else if (good === &quot;Яблоки&quot; || good === &quot;Груши&quot;) {&#xa;    alert(&quot;На яблоки и груши одна цена - 40 руб./кг.&quot;);&#xa;} else {&#xa;    alert(&quot;Неизвестный фрукт&quot;);&#xa;}" ID="ID_194103339" CREATED="1717062680161" MODIFIED="1717062683135"/>
+<node TEXT="switch (Поиск)" FOLDED="true" ID="ID_661105905" CREATED="1717410476948" MODIFIED="1717410498816">
+<node TEXT="let good = &quot;Яблоки&quot;;&#xa;sayPrice(good);&#xa;sayPrice(&quot;Манго&quot;);&#xa;&#xa;function sayPrice(good) {&#xa;  switch (good) {&#xa;    case &quot;Бананы&quot;:&#xa;      console.log(&quot;Цена на бананы 50 руб./кг.&quot;);&#xa;      break;&#xa;    case &quot;Манго&quot;:&#xa;      console.log(&quot;Цена на Манго 80 руб./кг.&quot;);&#xa;      break;&#xa;    case &quot;Яблоки&quot;:&#xa;    case &quot;Груши&quot;:&#xa;      console.log(&quot;На Яблоки и Груши одна цена - 40 руб./кг.&quot;);&#xa;      break;&#xa;    default:&#xa;      console.log(&quot;Неизвесный фрукт.&quot;)&#xa;  }&#xa;}" POSITION="bottom_or_right" ID="ID_372311709" CREATED="1717409945072" MODIFIED="1717410467173"/>
+</node>
 </node>
 </node>
 </node>
