@@ -1,7 +1,7 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Счёт - Мнемотехника" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1719247410970"><hook NAME="MapStyle" background="#2e3440">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/dark_nord_template.mm" followedTemplateLocation="template:/dark_nord_template.mm" followedMapLastTime="1699818412000"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/dark_nord_template.mm" followedTemplateLocation="template:/dark_nord_template.mm" followedMapLastTime="1699818412000" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -125,6 +125,7 @@
 <node TEXT="28 - Жёлудь" ID="ID_564057290" CREATED="1719250925195" MODIFIED="1719250965873"/>
 <node TEXT="29 - Заяц" ID="ID_26502860" CREATED="1719250966133" MODIFIED="1719250978229"/>
 <node TEXT="30 - Икар" ID="ID_76387259" CREATED="1719250978744" MODIFIED="1719250995790"/>
+<node TEXT="" ID="ID_800768419" CREATED="1719251123451" MODIFIED="1719251123451"/>
 </node>
 <node TEXT="36" OBJECT="java.lang.Long|36" POSITION="top_or_left" ID="ID_183993305" CREATED="1719249446220" MODIFIED="1719249460252">
 <node TEXT="рак" FOLDED="true" ID="ID_337810239" CREATED="1719249460510" MODIFIED="1719249472187">
